@@ -6,10 +6,11 @@ function FunctionComponent3(props) {
     <div className="App">
       <p>
         My name is <u>{props.name}</u> . I am <u>{props.age}</u> years old and I
-        am currently pursing my graduation in a stream called <u>{course}</u> at
+        am currently pursing my graduation in a stream called
+        <u>{course}</u> at
         <u> {props.graduation} </u>
       </p>
-      <button onClick={() => props.setName("Chinni")}>
+      <button onClick={() => props.setName("Sonu")}>
         Click me to update the Name
       </button>
     </div>

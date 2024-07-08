@@ -23,4 +23,4 @@ function FunctionComponent4({ name, age, graduation, setName }) {
  * course is the dynamic type
  */
 
-export default FunctionComponent4
+export default FunctionComponent4;
